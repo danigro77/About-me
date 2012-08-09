@@ -1,1 +1,163 @@
 @import "bootstrap";
+
+/***********************
+	COLORS
+***********************/
+$textColorBasic: black;
+$textColorHighlight1: purple;
+$textColorHighlight2: #f5d0f5;
+$textColorDownlight1: gray;
+$backgroundColorBasic: white;
+$backgroundColorHighlight1: gray;
+$backgroundColorHighlight2: lightGray;
+$borderColor1: gray;
+
+
+/***********************
+	BASICS
+***********************/
+body {
+	padding-top: 60px; 	
+	color: $textColorBasic;
+	background: $backgroundColorBasic;
+}
+#wrapper {
+	width: 100%;
+}
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.left {
+	text-align: left;
+}
+h1 {
+	margin: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: $textColorHighlight1;
+	&:hover {
+		text-shadow: 1px 1px 2px $textColorHighlight2;
+		filter: dropshadow(color=$textColorHighlight2, offx=1, offy=1);
+		text-decoration: none;
+		color: $textColorHighlight1;
+	}
+	&:visited {
+		color: $textColorHighlight1;
+	}
+}
+
+.red {
+	background-color:red;
+}
+.blue {
+	background-color:blue;
+}
+
+/***********************
+	BODY
+***********************/
+
+#content {
+	background: image-url("flower1.png") left center no-repeat, $backgroundColorHighlight2;
+	-webkit-border-radius: 10px;
+	padding: 20px;
+}
+#content_left, #content_right {
+	float: left;
+}
+#content_right {
+	margin-left: 40px;
+	h1 {
+		margin-left: 0px;
+	}	
+}
+
+/***********************
+	HEADER, FOOTER
+***********************/
+
+header, footer {
+	background: $backgroundColorHighlight1;
+}
+
+footer {
+	clear: left;
+	position: relative;
+	margin-top: 10px;
+}
+
+span#title-2 {
+	font-size: 0.7em;
+}
+#footer {
+	font-size: 0.9em;
+	padding: 3px 10px;
+	text-align: right;
+}
+/***********************
+	CONTACT
+***********************/
+#contact {
+/*	width: 90%;
+*/	/*margin: 0 50px;*/
+	padding: 5px;
+/*	margin-bottom: 30px;
+*/	font-size: 1.2em;
+	border: $borderColor1 1px solid;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+#hcard-Daniela-Grossmann {
+	background: lightGray;
+/*	width: 30%;
+	padding: 40px;*/
+	float: left;
+/*	margin: 5px 0 15px 0;
+*/	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	div#contact_img {
+		float: left;
+		margin:10px
+	};
+	div#card_contact {
+		float: left;
+	};
+}
+.fn {
+	margin: 10px 0 2px 0;
+	font-size: 1.2em;
+}
+p.smaller {
+	font-size: 0.6em;
+	border-top: $borderColor1 1px dotted;
+	margin-top: 5px;
+}
+
+#contact_links {
+	
+	.social_networks {
+/*		padding: 45px 0;
+		width: 25%;
+*/		float: left;
+		margin: 10px;
+		ul {
+			li {
+				list-style-type: none;
+			}
+			a {
+				color: $textColorDownlight1;
+				&:hover {
+					text-shadow: 1px 1px 2px $textColorHighlight1;
+					filter: dropshadow(color=$textColorHighlight1, offx=1, offy=1);
+					text-decoration: none;
+					color: $textColorDownlight1;
+				}
+			}
+		}		
+	}
+}

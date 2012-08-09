@@ -1,21 +1,18 @@
 <% provide(:title, "About Me")%>
-<% provide(:header, "Daniela Grossmann")%>
-<h1><%= yield(:header) %></h1>
+<% provide(:header, "About Me")%>
+<% provide(:link_title, "My contact")%>
+<% provide(:link, contact_path)%>
 
-<div>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin leo tortor, consequat in semper at, porta eu sapien. Nunc porta, nibh ut aliquam ultricies, quam libero dictum purus, ut gravida purus ipsum ut nibh. Etiam ac diam tortor, consequat pharetra massa. Maecenas at augue elementum nibh convallis adipiscing. Praesent feugiat pulvinar tellus. Donec euismod ligula et nunc varius sollicitudin. Morbi ultricies turpis consequat nisl imperdiet ac lobortis velit dapibus. Aliquam vel odio libero. In hac habitasse platea dictumst. Aenean et sem metus, et tincidunt urna. Curabitur et nibh ante. Sed quis purus orci, et consectetur urna. Nunc nec dolor ac nibh hendrerit malesuada. Cras faucibus magna nec metus semper pharetra.
-
-Aliquam adipiscing tempus dolor, at commodo dolor consequat in. Nulla facilisi. Etiam suscipit, urna convallis condimentum consectetur, quam nunc auctor justo, id bibendum ipsum ipsum at eros. Etiam vitae tempus diam. Curabitur in dolor diam, quis laoreet ante. Nullam vehicula tempus dolor, quis venenatis nisi commodo non. Vivamus nunc ipsum, elementum vel pulvinar non, feugiat vel felis. Suspendisse sit amet mollis purus. Aliquam fermentum bibendum nisl, eu convallis dui imperdiet euismod. Proin arcu enim, imperdiet ut mattis id, bibendum a sapien.
-
-Duis dui dui, porta at venenatis at, dictum varius orci. Vivamus eros elit, feugiat quis ultricies et, consequat egestas libero. Cras tempus ipsum non erat ornare volutpat at non dui. Praesent ultrices, purus eu porttitor consectetur, mauris orci semper massa, ac imperdiet risus magna et ante. Integer at sem erat. Suspendisse congue tempus sollicitudin. Nulla ipsum nibh, vulputate nec suscipit at, porttitor aliquam enim. Donec porttitor dapibus elit in aliquam. Praesent ac odio dolor. Aenean pretium venenatis condimentum.
-
-Curabitur tincidunt, sem vel rhoncus commodo, massa libero dictum lectus, ac fringilla elit purus id enim. Donec iaculis, felis eget scelerisque tristique, nulla odio tempor dolor, id faucibus enim nisl eget sapien. Curabitur ut tincidunt diam. Cras ultrices ipsum ac est bibendum posuere. Fusce metus lorem, rhoncus ut rhoncus ac, varius nec leo. In hac habitasse platea dictumst. Donec tempor nulla et nunc adipiscing eget dignissim enim pellentesque. Donec vitae mauris massa. Praesent feugiat, sapien ac faucibus scelerisque, mauris massa commodo massa, a sodales lorem ligula nec sem. Duis varius velit nec neque vulputate cursus. Nam ut dolor blandit quam pulvinar posuere ac vitae lectus. Sed id blandit est. Fusce sit amet rutrum orci. In libero felis, dignissim vitae scelerisque quis, tincidunt nec nulla. Praesent metus urna, tincidunt eget posuere vel, suscipit sit amet nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-Suspendisse potenti. Integer nec dolor ligula. In hac habitasse platea dictumst. Vestibulum a pulvinar ante. Suspendisse sit amet luctus neque. Cras cursus sapien ac elit molestie eu rutrum tortor vulputate. In varius, dui et condimentum volutpat, neque metus egestas quam, sed vulputate nisi lectus ut dolor. Vivamus orci lorem, tristique vitae pretium eu, sollicitudin ut orci.
+<div class="row-fluid">
+	<div class="span12">
+		<div class="span10 offset1" id="content">
+			
+			<%= render 'static_pages/content' %>
+			
+		</div>
+	</div>
 </div>
-<footer>
-<%= link_to "My contact", "#", id:"contact-link" %>
-</footer>
+
 
 
 

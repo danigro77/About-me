@@ -1,4 +1,4 @@
 == AboutMe App
 
-As a DevBootcamper in Fall 2012 I have the task to build up an About Me page. So I thought it would be a good idea not only to show that I can build up a HTML/CSS page but also to practice the structure of Rails.
+As a Dev Boot in Fall 2012 I have the task to build up an About Me page. So I thought it would be a good idea not only to show that I can build up a HTML/CSS page but also practice the structure of Rails and Bootstrap, and I wanted to try things I recently learned, like using Microformats.
 

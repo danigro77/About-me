@@ -1,15 +1,50 @@
 <% provide(:title, "Contact")%>
 <% provide(:header, "Contact")%>
-<h1><% yield(:header) %></h1>
-<div id="hcard-Daniela-Grossmann" class="vcard">
-  <img style="float:left; margin-right:4px" src="http://www.gravatar.com/avatar/b8beff9b178158df2ebe2613f5283f0d.png" alt="photo of " class="photo"/>
- <span class="fn">Daniela Grossmann</span>
- <a class="email" href="mailto:daniela.grossmann@gmail.com">daniela.grossmann@gmail.com</a>
- <div class="adr">
-  <span class="locality">San Francisco</span>
-, 
-  <span class="region">CA</span>
+<% provide(:link_title, "Home")%>
+<% provide(:link, root_path)%>
+<div class="row-fluid">
+	<div class="span12 offset1">
+		<div id="contact" class="span10 ">
+			<div id="hcard-Daniela-Grossmann" class="vcard span5 offset0">
+				<div id="contact_img">
+			 		<img src="http://www.gravatar.com/avatar/b8beff9b178158df2ebe2613f5283f0d.png" alt="photo of Daniela Grossmann" class="photo"/>
+				</div>
+				<div id="card_contact">
+			 		<p class="fn">Daniela Grossmann</p>
+			 		<a class="email" href="mailto:daniela.grossmann@gmail.com">daniela.grossmann@gmail.com</a>
+			 		<div class="adr">
+			  			<span class="locality">San Francisco</span>, <span class="region">CA</span>
+			 		</div>
+					<p class="smaller">This <a href="http://microformats.org/wiki/hcard">hCard</a> created with the 
+						<a href="http://microformats.org/code/hcard/creator">hCard creator</a>.</p>
+				</div>
+			</div>
 
- </div>
-<p style="font-size:smaller;">This <a href="http://microformats.org/wiki/hcard">hCard</a> created with the <a href="http://microformats.org/code/hcard/creator">hCard creator</a>.</p>
+			<div id="contact_links" >
+				<div class="social_networks right span3">
+					<ul id="sn_ul">
+						<li><%= link_to "Facebook", "http://www.facebook.com/daniela.grossmann.35?ref=tn_tnmn", 
+											rel: "Link to Facebook", target: "_blank" %></li>
+						<li><%= link_to "Twitter", "https://twitter.com/danigro77", 
+											rel: "Link to Twitter", target: "_blank" %></li>
+						<li><%= link_to "Blog - Hitchhiking on Rails", "http://danionrails.tumblr.com", 
+											rel: "Link to Tumblr Blog: Hitchhiking on Rails", target: "_blank" %></li>
+						<li><%= link_to "GitHub", "https://github.com/danigro77", rel: "Link to GitHub", target: "_blank" %></li>
+					</ul>
+				</div>
+		
+				<div class="social_networks left span3">
+					<ul id="sn_ul">
+						<li><%= link_to "LinkedIn", "http://www.linkedin.com/pub/daniela-grossmann/56/152/145", 
+											rel: "Link to LinkedIn", target: "_blank" %></li>
+						<li><%= link_to "Code School", "http://www.codeschool.com/users/danigro77", 
+											rel: "Link to Code School", target: "_blank" %></li>
+						<li><%= link_to "Team Treehouse", "http://teamtreehouse.com/danigro77", 
+											rel: "Link to Team Treehouse", target: "_blank" %></li>
+						<li><%= link_to "Something_else", "#", rel: "Link to ", target: "_blank" %></li>			
+					</ul>	
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
