@@ -63,7 +63,7 @@ a {
 ***********************/
 
 #content {
-	background: image-url("flower1.png") left center no-repeat, $backgroundColorHighlight2;
+	background: image-url("flower1.png") 410px 20px repeat-y, image-url("flower1.png") left center no-repeat, $backgroundColorHighlight2;
 	-webkit-border-radius: 10px;
 	padding: 20px;
 }
