@@ -1,9 +1,27 @@
-<div id="left_content">
+<div id="content_studies">
 	<h1>Studies</h1>
 	<p>
 		<h4>Diplomas</h4>
 		<p><span>1999 - </span>Bachelor's degree, Secondary Education and Teaching<br />
-			<span>Fall 2012 - </span>Dev Bootcamp</p>
+			<span>Fall 2012 - </span><%= link_to "Dev Bootcamp", "http://devbootcamp.com", rel: "Link to Dev Bootcamp", target: "_blank" %></p>
+		<h4>Other Studies and Coursework</h4>
+		<ul>
+			<li><%= link_to "Code School", "http://www.codeschool.com/users/danigro77", 
+								rel: "Link to Code School", target: "_blank" %> (subscribed since 01/2012)</li>
+			<li><%= link_to "Team Treehouse", "http://teamtreehouse.com/danigro77", 
+								rel: "Link to Team Treehouse", target: "_blank" %> (subscribed since 01/2012)</li>
+			<li><%= link_to "Codecademy", "http://www.codecademy.com/users/danigro77", 
+								rel: "Link to Codecademy", target: "_blank" %> (subscribed since 01/2012)</li>
+			<li><span>Introduction to Unix/Linux</span> at <%= link_to "City College of SF", "www.ccsf.edu/",
+			 					rel: "Link to City College of San Francisco", target: "_blank" %>, Spring 2012</li>
+			<li><span>Basics for Administering School Networks</span> at <%= link_to "PH Baden", "http://www.ph-noe.ac.at",
+								rel: "Link to PH Baden in Austria", target: "_blank" %>, Sept.2002-June 2004</li>
+			<li><%= link_to "Hartl Tutorial", "http://ruby.railstutorial.org/ruby-on-rails-tutorial-book", 
+								rel: "Link to the Hartl Tutorial", target: "_blank" %>, 
+				<%= link_to "Ruby Monk", "http://rubymonk.com", rel: "Link to Ruby Monk", target: "_blank" %>, 
+				<%= link_to "Rubeque", "http://rubeque.com/problems", rel: "Link to Rubeque", target: "_blank" %>, 
+				<%= link_to "Project Euler", "http://projecteuler.net", rel: "Link to Project Euler", target: "_blank" %>, ...</li>
+		</ul>
 		<h4>Languages</h4>
 		<ul>
 			<li>Mother tongue: German</li>

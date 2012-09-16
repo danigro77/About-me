@@ -1,3 +1,8 @@
 <footer>
-	<div id="footer"><%= link_to "#{yield(:link_title)}", "#{yield(:link)}", id:"footer-link" %></div>
+	<div id="footer">
+		<ul>
+			<li><%= link_to "#{yield(:link_title)}", "#{yield(:link)}", id:"footer-link" %></li>
+			<li>Last update: 2012-09-16</li>
+		</ul>
+	</div>
 </footer>
