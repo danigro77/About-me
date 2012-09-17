@@ -16,12 +16,11 @@ $borderColor1: gray;
 /***********************
 	BASICS
 ***********************/
-body {
-	padding-top: 60px; 	
+body.AboutMe {
 	color: $textColorBasic;
 	background: $backgroundColorBasic;
 }
-#wrapper {
+.AboutMe #wrapper {
 	width: 100%;
 }
 .center {
@@ -32,9 +31,6 @@ body {
 }
 .left {
 	text-align: left;
-}
-h1 {
-	margin: 5px;
 }
 
 a {
@@ -51,9 +47,6 @@ a {
 	}
 }
 
-span {
-	font-style: italic;
-}
 
 
 /***********************
@@ -63,57 +56,33 @@ span {
 #content, #project {
 	background: image-url("flower1.png") 410px 20px repeat-y, image-url("flower1.png") left center no-repeat, $backgroundColorHighlight2;
 	-webkit-border-radius: 10px;
+	border-radius: 10px;
 	padding: 20px;
+	position: relative;
 }
 #content_1, #content_2 {
 	float: left;
 	margin-bottom: 15px;
 }
 #content_2 {
-	margin-left: 40px;
-	h1 {
-		margin-left: 0px;
-	}	
+/*	margin-left: 15px;
+*/	h1 {
+/*		margin-left: 0px;
+*/	}	
 }
 
 #content_3 {
 	clear: left;
 }
 
-/***********************
-	HEADER, FOOTER
-***********************/
-
-header, footer {
-	background: $backgroundColorHighlight1;
+#content span {
+	font-style: italic;
 }
 
-footer {
-	clear: left;
-	position: realtive;
-	margin-top: 15px;
-}
-
-span#title-2 {
-	font-size: 0.7em;
-}
-#footer {
-	font-size: 1.2em;
-	padding: 3px 10px;
-	text-align: right;
-	li {
-		list-style-type: none;
-		display: inline;
-		margin-right: 20px;
-		&:last-child {
-			margin-right: 10px;
-			font-size: 0.9em;
-		}
-	}
-}
 /***********************
 	CONTACT
 ***********************/
+
 #contact {
 /*	width: 90%;
 */	/*margin: 0 50px;*/

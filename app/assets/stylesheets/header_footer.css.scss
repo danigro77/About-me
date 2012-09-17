@@ -1,0 +1,68 @@
+@import "bootstrap";
+
+/***********************
+	COLORS
+***********************/
+$textColorBasic: black;
+$textColorHighlight1: purple;
+$textColorHighlight2: #f5d0f5;
+$textColorDownlight1: gray;
+$backgroundColorBasic: white;
+$backgroundColorHighlight1: gray;
+$backgroundColorHighlight2: lightGray;
+$borderColor1: gray;
+
+
+/***********************
+	HEADER, FOOTER
+***********************/
+html, body {
+	margin-top: 60px; 	
+	font-family: Arial, sans-serif;
+}
+header, footer {
+	background: $backgroundColorHighlight1;
+	a {
+		text-decoration: none;
+		color: $textColorHighlight1;
+		&:hover {
+			text-shadow: 1px 1px 2px $textColorHighlight2;
+			filter: dropshadow(color=$textColorHighlight2, offx=1, offy=1);
+			text-decoration: none;
+			color: $textColorHighlight1;
+		}
+		&:visited {
+			color: $textColorHighlight1;
+		}
+	}
+}
+header {
+	margin-bottom: 50px;
+}
+footer {
+	clear: left;
+	margin-top: 15px;
+	position: inherit;
+	width: 100%;
+}
+h1 {
+	margin: 5px;
+}
+
+span#title-2 {
+	font-size: 0.7em;
+}
+#footer {
+	font-size: 1.2em;
+	padding: 3px 10px;
+	text-align: right;
+	li {
+		list-style-type: none;
+		display: inline;
+		margin-right: 20px;
+		&:last-child {
+			margin-right: 10px;
+			font-size: 0.9em;
+		}
+	}
+}

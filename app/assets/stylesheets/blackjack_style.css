@@ -1,0 +1,138 @@
+html .BlackJack {
+}
+
+.BlackJack span#title-2 {
+	font-family: 'Unlock', italic;
+}
+
+	/********************************
+		THE WRAPPER and DIVs
+	********************************/
+
+.BlackJack #wrapper 	{
+	margin: 0 auto;
+	width: 	1200px;
+}
+
+#cards, #game, #results	{
+	float: 	left;
+}
+
+.BlackJack p#welcome {
+	font-family: 'Unlock', italic;
+	text-align: center;
+	font-size: 1.2em;
+	
+}
+
+	/*************************
+		DIV CARDS
+	*************************/
+
+#cards 		{
+	text-align: left;
+	padding-left: 20px;
+}
+
+#sec1, #sec2	{
+	height:	150px;
+}
+
+.cardsText	{
+	font-size: 1.3em;
+}
+
+#firstCard	{
+	font-size: 1em;
+}
+
+	/******* BUTTONS *******/
+
+#anotherCard, #noCard	{
+	float: 	left;
+	width: 	180px;
+}
+
+#noCard		{
+	margin-left: 10px;
+}
+
+
+.suitImg	{
+	height: 20px;
+}
+
+
+	/*************************
+		DIV RESULTS
+	*************************/
+
+#result		{	
+	text-align: center;
+}
+
+.score		{
+	font-size: 1.2em;
+}
+
+#win, #lose, #tied {
+	font-family: 'Unlock', cursive;
+	font-size: 2em;
+}
+
+#win 		{
+	color: green;
+}
+
+#lose 		{
+	color: red;
+}
+
+#tied		{
+	color: yellow;
+}
+
+
+	/******* Button ********/
+#newGame	{
+	margin: 30px auto;
+	padding-left: 100px
+}
+
+#sec4		{
+	height:	150px;
+}
+
+#sec5		{
+	height:	100px;
+}
+
+
+	/******* table ********/
+#statistic	{
+	margin:	0 auto;
+	height: 100px;
+}
+
+
+	/*************************
+		DIV UNDERCARDS 
+	*************************/
+
+#underCards 	{
+	clear:	left;
+	margin:	5px auto;
+	width: 	1200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

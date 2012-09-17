@@ -1,0 +1,45 @@
+<% provide(:title, "Black Jack") %>
+<% provide(:header, "Black Jack") %>
+<% provide(:link_title, "Close Window") %>
+<% provide(:link, "javascript: window.close()") %>
+<% provide(:style, 'blackjack_style') %>
+<% provide(:js, 'blackJack') %>
+<% provide(:style_class, 'BlackJack') %>
+
+
+<div id="wrapper">
+ 
+	<div id="cards" class="span5">
+	    <div id="sec1">
+			<p id="nameHand" class="cardsText"></p>
+			<ul id="hand"></ul>
+	    </div>
+	    <div id="sec2">
+			<p id="dealHand" class="cardsText"></p>
+			<ul id="dealer2" style="display: block;"></ul>
+			<ul id="dealer" style="display: none;"></ul>
+	    </div>
+	    <div id="sec3">
+			<p><span id="cardsButton1" style="display: none;"></span><span id="cardsButton2" style="display: none;"></span></p>
+	    </div>
+	</div>
+
+	<div id="game" class="span4">
+		<p id="welcome">Welcome stranger! Click on the deck of cards to begin the game.<p>
+		<%= image_tag("carddeck.jpg", alt: "a deck of cards", title: "New Player? Click for a new Game.", id: "carddeck", onclick: "newPlayersGame()") %>
+		<!-- <img src="/images/carddeck.jpg" alt="a deck of cards" title="New Player? Click for a new Game." id="carddeck" onclick="newPlayersGame()" /> -->
+	</div>
+
+	<div id="results" class="span4">
+		<div id="sec4">
+			<div id="result" style="display: none;"></div>
+		</div>
+		<div id="sec5">
+			<div id="newGame" style="display: none;"></div>
+		</div>
+		<table id="statistic"></table>
+	</div>
+
+	<div id="underCards"></div>
+	</div>
+</div>
