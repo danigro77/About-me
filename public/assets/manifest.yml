@@ -1,14 +1,14 @@
 ---
-0suit.png: 0suit.png
-1suit.png: 1suit.png
-2suit.png: 2suit.png
-3suit.png: 3suit.png
-carddeck.jpg: carddeck.jpg
-flower1.png: flower1.png
-flower2.png: flower2.png
-rails.png: rails.png
-warning.png: warning.png
-application.js: application.js
-application.css: application.css
-glyphicons-halflings-white.png: glyphicons-halflings-white.png
-glyphicons-halflings.png: glyphicons-halflings.png
+0suit.png: 0suit-b0adc90fe04ef2f72d70d27eff14b88b.png
+1suit.png: 1suit-777c2ede1181dced40e922793a9d62fc.png
+2suit.png: 2suit-f86bec8e7b6cae3e162c087b1602a66f.png
+3suit.png: 3suit-af70bb40087bb73a157a706a03cda6a4.png
+carddeck.jpg: carddeck-61be46402e197980a89fab97d0083c11.jpg
+flower1.png: flower1-a400f74bf8ef72e6d69060acd4cc0369.png
+flower2.png: flower2-2bda5d7cdeabe10fa4a38a39402d5e09.png
+rails.png: rails-be8732dac73d845ac5b142c8fb5f9fb0.png
+warning.png: warning-7c12ea96a62670a4dcb692deb4765135.png
+application.js: application-b73abbe2a4a982ec14285c04bc1660a0.js
+application.css: application-3398a1d99d2c600b121f204bebba3c42.css
+glyphicons-halflings-white.png: glyphicons-halflings-white-ef3d5b8d6a297804352b4a46fdb5466d.png
+glyphicons-halflings.png: glyphicons-halflings-0e7ff93d8f48fe1f5f762e4312e78da7.png
